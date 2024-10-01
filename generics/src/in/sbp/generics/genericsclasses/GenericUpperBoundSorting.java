@@ -15,6 +15,9 @@ public class GenericUpperBoundSorting<T extends Comparable<T>> {
 					T temp = tArray[j];
 					tArray[j]=tArray[j+1];
 					tArray[j+1]=temp;
+//					a=a+b;
+//					a=a-b;
+//					b=a-b;
 				}
 			}
 		}

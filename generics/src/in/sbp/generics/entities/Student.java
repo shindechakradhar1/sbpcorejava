@@ -28,6 +28,7 @@ public class Student implements Comparable<Student>{
 	public String toString() {
 		return "Student [rollNO=" + rollNO + ", name=" + name + "]";
 	}
+	
 	@Override
 	public int compareTo(Student o) {
 		
